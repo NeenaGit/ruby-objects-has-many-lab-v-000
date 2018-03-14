@@ -1,19 +1,19 @@
-class Autor
+class Author
   attr_accessor :name
 
   @@post_count = 0
 
   def initialize(name)
     @name = name
-    @songs = []
+    @posts = []
   end
 
   def songs
-    @songs
+    @posts
   end
 
-  def add_song(song)
-    song = Song.new(song)
-    @songs << song
-    song.artist = self
+  def add_post(post)
+    post = Post.new(post)
+    @posts << post
+    post.artist = self
   end
