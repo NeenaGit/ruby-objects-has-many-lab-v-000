@@ -23,12 +23,12 @@ class Artist
     song.artist = self
   end
 
-  def self.song_count
-    @@song_count = 0
-    while @song > 0
-     @@song_count += 1
-     @@song count
-    end
-  end
+  # def self.song_count
+  #   @@song_count = 0
+  #   while @song > 0
+  #    @@song_count += 1
+  #    @@song count
+  #   end
+  # end
 
 end
