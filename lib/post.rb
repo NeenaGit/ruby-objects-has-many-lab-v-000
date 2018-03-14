@@ -9,7 +9,9 @@ class Post
 
 
   def author_name
+    if 
     self.author.name
+    else
   end
 
 end
