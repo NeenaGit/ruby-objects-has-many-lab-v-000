@@ -8,7 +8,7 @@ class Author
     @posts = []
   end
 
-  def songs
+  def posts
     @posts
   end
 
