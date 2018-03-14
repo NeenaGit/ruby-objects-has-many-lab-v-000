@@ -25,9 +25,10 @@ class Artist
 
   def self.song_count
     @@song_count = 0
-     while @song > 0
-      @@song_count += 1
-    @@song count.to_i
+    while @song > 0
+     @@song_count += 1
+     @@song count.to_i
+    end
   end
 
 end
