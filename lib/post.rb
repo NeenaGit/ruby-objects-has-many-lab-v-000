@@ -5,9 +5,8 @@ class Post
     @title = title
   end
 
-  def add_post(post)
-    post = Post.new(post)
-    @posts << post
+  def author
+    author = Author.new(author)
     post.author = self
   end
 
