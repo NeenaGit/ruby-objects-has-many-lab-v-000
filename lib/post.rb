@@ -9,9 +9,9 @@ class Post
 
 
   def author_name
-    if 
-    self.author.name
-    else
+    if self.author
+       self.author.nameself.author
+    end   
   end
 
 end
