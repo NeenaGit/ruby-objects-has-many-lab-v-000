@@ -8,8 +8,7 @@ class Song
   end
 
   def artist_name
-        binding.pry
-    name.artist = self
+    self.author.song
   end
 
 end
