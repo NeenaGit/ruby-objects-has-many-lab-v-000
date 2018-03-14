@@ -8,7 +8,6 @@ class Song
   end
 
   def artist_name
-    artist = Artist.new(artist)
         binding.pry
     name.artist = self
   end
