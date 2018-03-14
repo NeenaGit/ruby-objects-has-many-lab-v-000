@@ -5,14 +5,9 @@ class Post
     @title = title
   end
 
-  def author
-    author = Author.new(author)
-    post.author = self
-  end
 
   def author_name
-    author = Author.new(author)
-    post.author = self
+    self.author.name
   end
 
 end
